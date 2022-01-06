@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300&display=swap');
+
+
+div.homepage {
+  font-family: 'Spline Sans', sans-serif;
+  position: relative;
+  top: 100px;
+}
+
+h1.name {
+  font-size: 70px;
+  font-weight: normal;
+}
+
+span.subtitle {
+ font-size: 20px;
+}
+
+a.portfolioLink {
+/* text-decoration: none; */
+color: white;
+}

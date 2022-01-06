@@ -1,6 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300&display=swap');
 
+nav {
+  height: 60px;
+  background-color: black;
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  border-bottom: solid;
+  border-bottom-color: white;
+}
 
-
-navLinks {
+a.navLinks {
+  margin: 15px;
   text-decoration: none;
+  color: white;
+  font-family: 'Spline Sans', sans-serif;
 }
