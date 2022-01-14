@@ -1,22 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 div.homepage {
   font-family: 'Spline Sans', sans-serif;
   position: relative;
-  top: 100px;
+  top: 50px;
 }
 
 h1.name {
-  font-size: 70px;
-  font-weight: normal;
+  font-size: 100px;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+  text-shadow: 5px 5px 15px black;
 }
 
 span.subtitle {
  font-size: 20px;
+ position: relative;
+ bottom: 40px;
 }
 
 a.portfolioLink {
 /* text-decoration: none; */
 color: white;
+}
+
+.portfolioButton {
+  color: white;
+}
+
+.homepageTitle {
+  margin-bottom: 40px;
+}
+
+.profiles {
+  position: relative;
+  top: 75px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 100px;
+  
+}
+
+.profilePics {
+  height: 100px;
+  width: 100px;
+  border-radius: 20%;
+  margin: 0px 10px;
 }

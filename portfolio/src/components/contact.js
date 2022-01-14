@@ -1,4 +1,4 @@
-
+import './contact.css';
 
 
 
@@ -6,14 +6,12 @@ const Contact = () => {
 
 
   return (
-  <div>
-      <h1>Contact Me</h1>
-      <span>
-        (804) 293-1547 <br />
+  <div className="contactMe">
+      <h1 className="contactTitle">Contact Me</h1>
+      <p className="contactInfo">
+        (804) 293-1547 <br /><br/>
         partinzach@gmail.com <br />
-        
-
-      </span>
+      </p>
   </div>
   )
 }
