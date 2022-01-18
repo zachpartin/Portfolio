@@ -10,4 +10,5 @@ height: 50vh;
 .resumeHeader {
   font-family: 'Oswald', sans-serif;
   font-size: 52px;
+  text-shadow: 5px 5px 10px black;
 }

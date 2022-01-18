@@ -12,6 +12,7 @@
   font-family: 'Oswald', sans-serif;
   font-size: 52px;
   font-weight: bold;
+  text-shadow: 5px 5px 10px black;
 }
 
 .aboutMeP {
@@ -29,3 +30,14 @@
   margin-bottom: 75px;
 }
 
+@media only screen and (max-width: 450px) {
+.aboutMePic {
+  height: 250px;
+  width: 250px;
+}
+
+.aboutMeP {
+  font-size: 20px;
+}
+
+}

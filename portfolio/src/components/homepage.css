@@ -8,14 +8,14 @@ div.homepage {
   top: 50px;
 }
 
-h1.name {
+.name {
   font-size: 100px;
   font-weight: bold;
   font-family: 'Oswald', sans-serif;
-  text-shadow: 5px 5px 15px black;
+  text-shadow: 5px 5px 10px black;
 }
 
-span.subtitle {
+.subtitle {
  font-size: 20px;
  position: relative;
  bottom: 40px;
@@ -28,6 +28,7 @@ color: white;
 
 .portfolioButton {
   color: white;
+  text-decoration:underline;
 }
 
 .homepageTitle {
@@ -49,4 +50,21 @@ color: white;
   width: 100px;
   border-radius: 20%;
   margin: 0px 10px;
+}
+
+@media only screen and (max-width: 450px) {
+
+.name {
+  font-size: 64px;
+}
+
+.profilePics {
+  height: 75px;
+  width: 75px;
+}
+
+.subtitle {
+  font-size:18px;
+}
+
 }

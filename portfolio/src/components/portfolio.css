@@ -20,6 +20,7 @@
   font-family: 'Oswald', sans-serif;
   font-size: 52px;
   font-weight: bold;
+  text-shadow: 5px 5px 10px black;
 }
 
 .portfolioLinks {
@@ -38,7 +39,8 @@
 
 .portfolioDescription {
   position: relative;
-  bottom: 30px;
+  color: black;
+  font-size: 16px;
 }
 
 .portfolioPiece {
@@ -62,8 +64,35 @@
 
 .title {
   position: relative;
-  top: 20px;
+  bottom: 20px;
   font-family: 'Spline Sans', sans-serif;
   font-weight: bold;
   font-size: 36px;
+  color: black;
+}
+
+@media only screen and (max-width: 550px) {
+
+.portfolioPiece {
+width: 80vw;
+height: 50vh;
+}
+
+.portfolioImgs {
+  position: relative;
+  top: 15px;
+  width: 70vw;
+  height: 30vh;
+}
+
+.title{
+  position: relative;
+  top: 5px;
+  font-size: 24px;
+}
+
+.portfolioDescription {
+  font-size: 14px;
+}
+
 }
